@@ -377,9 +377,7 @@ function downvoteComment(url, request) {
   return response;
 }
 
-/* git bash cannot run `node server.js` with these functions
-
-// load from database
+// load from the database
 function loadDatabase() {
   var readYaml = require('read-yaml');
   return readYaml('./database.yml', function(err, data) {
@@ -391,7 +389,7 @@ function loadDatabase() {
   })
 }
 
-// save to database
+// save to the database
 function saveDatabase() {
   var yaml = require('write-yaml');
   yaml('database.yml', database, function(err) {
@@ -400,7 +398,7 @@ function saveDatabase() {
     }
   })
 }
-*/
+
 
 // Write all code above this line.
 
